@@ -1,0 +1,111 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Design Staff Pay Report, November 2026 | Brixen</title><style>
+:root{--red:#d8352c;--red2:#b8231c;--ink:#131417;--ink2:#1e2024;--muted:#5d6068;--line:#e3e3e3;--paper:#f5f5f5;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 "Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.page{max-width:8.5in;margin:24px auto;background:var(--card);padding:0 0 28px;box-shadow:0 2px 14px rgba(0,0,0,.08)}
+header{background:var(--ink);color:#fff;padding:24px 44px 22px;border-bottom:6px solid var(--red)}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:.14em;font-size:13px;text-transform:uppercase}.brand b{color:var(--red)}
+.pf{display:flex;align-items:baseline;gap:8px;font-size:13px;color:#c9ccd3}
+.pf input{width:230px;background:transparent;border:0;border-bottom:1px solid #6b6f78;border-radius:0;color:#fff;font-weight:600;padding:2px 4px}
+.pf input::placeholder{color:#8b8f98;font-weight:400}
+.kick{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#c9ccd3;margin:16px 0 0}
+h1{font-size:32px;line-height:1.14;margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:#c9ccd3;margin:0;max-width:64ch}
+main{padding:20px 44px 0}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.09em;color:var(--red2);margin:26px 0 8px;border-bottom:1px solid var(--line);padding-bottom:6px;break-after:avoid}
+p{margin:8px 0;max-width:70ch}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 4px}
+.kpi div{border:1px solid var(--line);border-top:4px solid var(--ink);padding:12px 14px}
+.kpi b{display:block;font-size:28px;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi span{font-size:13px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:8px 0 2px;font-size:14px}
+th{text-align:left;background:var(--ink);color:#fff;padding:8px 10px;font-weight:600}
+td{border-bottom:1px solid var(--line);padding:8px 10px;vertical-align:middle}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr{break-inside:avoid}tr.hl td{background:#fff3f1;font-weight:600}
+.rb{position:relative;height:14px;background:#f0f0f1;border-radius:3px;min-width:150px}
+.rb i{position:absolute;top:0;bottom:0;background:#8d9099;border-radius:3px}
+.rb b{position:absolute;top:-3px;bottom:-3px;width:3px;margin-left:-1px;background:var(--red);border-radius:2px}
+.ax{position:relative;height:16px;font-size:11px;color:#e3e5ea;font-weight:400}.ax span{position:absolute;transform:translateX(-50%)}.ax span:first-child{transform:none}.ax span:last-child{transform:translateX(-100%)}
+.key{font-size:12px;color:var(--muted);margin:4px 0 0}.key i{display:inline-block;width:22px;height:9px;background:#8d9099;border-radius:2px;vertical-align:middle;margin:0 4px 0 10px}.key b{display:inline-block;width:3px;height:13px;background:var(--red);vertical-align:middle;margin:0 5px 0 10px}
+.sm{font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 4px;white-space:nowrap}
+.note{background:var(--paper);border-left:4px solid var(--red);padding:10px 14px;margin:14px 0;color:var(--ink2);break-inside:avoid}
+.eg{font-size:13px;color:var(--muted);margin:4px 0 0}
+input,select{font:inherit;width:100%;border:1px solid #c9ccd3;border-radius:4px;padding:6px 8px;background:#fffdf2}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px 20px}
+label{display:block;font-size:13px;color:var(--muted);margin-bottom:3px}
+.out{background:var(--ink);color:#fff;border-radius:6px;padding:16px 20px;margin:16px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;break-inside:avoid}
+.out div span{display:block;font-size:12px;color:#c9ccd3;text-transform:uppercase;letter-spacing:.06em}
+.out div b{font-size:23px;font-variant-numeric:tabular-nums}.out div.big b{color:#ff8a82}
+.say{border-left:6px solid var(--red);background:#fff6f5;padding:14px 18px;margin:16px 0;font-size:17px;line-height:1.45;break-inside:avoid}.say b{color:var(--red2)}
+.btn{background:var(--red);color:#fff;border:0;border-radius:4px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer}
+.cta{border:2px solid var(--ink);border-radius:6px;padding:14px 18px;margin:22px 0 0;break-inside:avoid}.cta b.h{display:block;font-size:17px;margin-bottom:2px}
+ul.plain{margin:6px 0;padding-left:20px}ul.plain li{margin:4px 0}
+footer{margin:22px 44px 0;padding-top:12px;border-top:2px solid var(--ink);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted)}footer b{color:var(--ink)}
+@media (max-width:640px){header,main{padding-left:18px;padding-right:18px}footer{margin:22px 18px 0}.grid,.kpi{grid-template-columns:1fr}.out{grid-template-columns:1fr 1fr}.hide-s{display:none}h1{font-size:26px}}
+@media print{body{background:#fff}.page{box-shadow:none;margin:0;max-width:none}.noprint{display:none}input,select{background:#fff}@page{size:letter;margin:.5in}
+header,.out,th,.say,.rb,.rb i,.rb b,.key i,.key b,tr.hl td,.kpi div{-webkit-print-color-adjust:exact;print-color-adjust:exact}.pf:has(input:placeholder-shown){display:none}}
+</style></head><body><div class="page">
+<header><div class="top"><div class="brand">Brixen <b>Consultancy</b></div><div class="pf"><span>Prepared for</span><input id="pf" placeholder="firm name" aria-label="Prepared for"></div></div>
+<p class="kick">Design Staff Pay Report · November 2026</p><h1>What US firms are offering Revit and CAD staff right now</h1>
+<p class="sub">Advertised pay from 329 live job ads for MEP, structural, architectural, BIM and CAD production roles, by role and by state.</p></header>
+<main>
+<div class="kpi">
+  <div><b>$79,009</b><span>median advertised pay across all seven roles</span></div>
+  <div><b>$65,000 to $93,600</b><span>the middle half of all offers</span></div>
+  <div><b>$23,150</b><span>gap between Illinois and Texas, the highest and lowest of the states with 20 or more ads</span></div>
+</div>
+<p>This is what firms put in their job ads, read from 545 ads for building design production roles posted between Sep 8, 2026 and Nov 12, 2026. 329 of them stated pay. If you are hiring for one of these seats, this is what your offer is competing with.</p>
+
+<h2>Advertised pay by role</h2>
+<table><thead><tr><th>Role</th><th class="n hide-s">Ads with pay</th><th class="n">Median</th><th class="n hide-s">Middle half</th><th style="width:30%"><div class="ax"><span style="left:0.0%">$40k</span><span style="left:25.0%">$60k</span><span style="left:50.0%">$80k</span><span style="left:75.0%">$100k</span><span style="left:100.0%">$120k</span></div></th></tr></thead><tbody>
+<tr><td>BIM / VDC modeler or coordinator</td><td class="n hide-s">78</td><td class="n"><b>$87,500</b></td><td class="n hide-s">$69,900 to $102,500</td><td><div class="rb" title="Middle half $69,900 to $102,500, median $87,500"><i style="left:37.4%;width:40.7%"></i><b style="left:59.4%"></b></div></td></tr><tr><td>MEP / HVAC / plumbing designer</td><td class="n hide-s">67</td><td class="n"><b>$83,000</b></td><td class="n hide-s">$67,500 to $98,445</td><td><div class="rb" title="Middle half $67,500 to $98,445, median $83,000"><i style="left:34.4%;width:38.7%"></i><b style="left:53.8%"></b></div></td></tr><tr><td>Structural designer or drafter</td><td class="n hide-s">28</td><td class="n"><b>$82,450</b></td><td class="n hide-s">$72,500 to $96,720</td><td><div class="rb" title="Middle half $72,500 to $96,720, median $82,450"><i style="left:40.6%;width:30.3%"></i><b style="left:53.1%"></b></div></td></tr><tr><td>Electrical designer or drafter</td><td class="n hide-s">29</td><td class="n"><b>$79,009</b></td><td class="n hide-s">$67,600 to $89,440</td><td><div class="rb" title="Middle half $67,600 to $89,440, median $79,009"><i style="left:34.5%;width:27.3%"></i><b style="left:48.8%"></b></div></td></tr><tr><td>Architectural designer or drafter</td><td class="n hide-s">60</td><td class="n"><b>$77,500</b></td><td class="n hide-s">$65,000 to $85,000</td><td><div class="rb" title="Middle half $65,000 to $85,000, median $77,500"><i style="left:31.3%;width:25.0%"></i><b style="left:46.9%"></b></div></td></tr><tr><td>CAD drafter or technician (buildings)</td><td class="n hide-s">55</td><td class="n"><b>$68,640</b></td><td class="n hide-s">$58,750 to $83,200</td><td><div class="rb" title="Middle half $58,750 to $83,200, median $68,640"><i style="left:23.4%;width:30.6%"></i><b style="left:35.8%"></b></div></td></tr><tr><td>Steel or rebar detailer <span class="sm">small sample</span></td><td class="n hide-s">12</td><td class="n"><b>$60,185</b></td><td class="n hide-s">$56,000 to $70,000</td><td><div class="rb" title="Middle half $56,000 to $70,000, median $60,185"><i style="left:20.0%;width:17.5%"></i><b style="left:25.2%"></b></div></td></tr>
+</tbody></table>
+<p class="key">How to read the bars:<i></i>middle half of offers<b></b>median</p>
+
+<h2>Advertised pay by state, all seven roles together</h2>
+<table id="st"><thead><tr><th>State</th><th class="n hide-s">Ads with pay</th><th class="n">Median</th><th class="n hide-s">Middle half</th><th style="width:30%"><div class="ax"><span style="left:0.0%">$40k</span><span style="left:25.0%">$60k</span><span style="left:50.0%">$80k</span><span style="left:75.0%">$100k</span><span style="left:100.0%">$120k</span></div></th></tr></thead><tbody>
+<tr data-s="WA"><td>Washington <span class="sm">small sample</span></td><td class="n hide-s">13</td><td class="n"><b>$99,840</b></td><td class="n hide-s">$85,000 to $108,289</td><td><div class="rb" title="Middle half $85,000 to $108,289, median $99,840"><i style="left:56.3%;width:29.1%"></i><b style="left:74.8%"></b></div></td></tr><tr data-s="IL"><td>Illinois</td><td class="n hide-s">21</td><td class="n"><b>$92,150</b></td><td class="n hide-s">$82,450 to $100,000</td><td><div class="rb" title="Middle half $82,450 to $100,000, median $92,150"><i style="left:53.1%;width:21.9%"></i><b style="left:65.2%"></b></div></td></tr><tr data-s="CO"><td>Colorado <span class="sm">small sample</span></td><td class="n hide-s">12</td><td class="n"><b>$88,000</b></td><td class="n hide-s">$71,760 to $105,000</td><td><div class="rb" title="Middle half $71,760 to $105,000, median $88,000"><i style="left:39.7%;width:41.6%"></i><b style="left:60.0%"></b></div></td></tr><tr data-s="NM"><td>New Mexico <span class="sm">small sample</span></td><td class="n hide-s">10</td><td class="n"><b>$86,355</b></td><td class="n hide-s">$79,009 to $98,445</td><td><div class="rb" title="Middle half $79,009 to $98,445, median $86,355"><i style="left:48.8%;width:24.3%"></i><b style="left:57.9%"></b></div></td></tr><tr data-s="CA"><td>California</td><td class="n hide-s">39</td><td class="n"><b>$83,200</b></td><td class="n hide-s">$66,560 to $105,000</td><td><div class="rb" title="Middle half $66,560 to $105,000, median $83,200"><i style="left:33.2%;width:48.1%"></i><b style="left:54.0%"></b></div></td></tr><tr data-s="NY"><td>New York</td><td class="n hide-s">25</td><td class="n"><b>$80,000</b></td><td class="n hide-s">$66,560 to $95,000</td><td><div class="rb" title="Middle half $66,560 to $95,000, median $80,000"><i style="left:33.2%;width:35.6%"></i><b style="left:50.0%"></b></div></td></tr><tr data-s="OH"><td>Ohio <span class="sm">small sample</span></td><td class="n hide-s">13</td><td class="n"><b>$70,000</b></td><td class="n hide-s">$63,650 to $80,000</td><td><div class="rb" title="Middle half $63,650 to $80,000, median $70,000"><i style="left:29.6%;width:20.4%"></i><b style="left:37.5%"></b></div></td></tr><tr data-s="TX"><td>Texas</td><td class="n hide-s">30</td><td class="n"><b>$69,000</b></td><td class="n hide-s">$58,531 to $80,000</td><td><div class="rb" title="Middle half $58,531 to $80,000, median $69,000"><i style="left:23.2%;width:26.8%"></i><b style="left:36.3%"></b></div></td></tr><tr data-s="FL"><td>Florida <span class="sm">small sample</span></td><td class="n hide-s">17</td><td class="n"><b>$67,600</b></td><td class="n hide-s">$58,157 to $75,000</td><td><div class="rb" title="Middle half $58,157 to $75,000, median $67,600"><i style="left:22.7%;width:21.1%"></i><b style="left:34.5%"></b></div></td></tr><tr data-s="MO"><td>Missouri <span class="sm">small sample</span></td><td class="n hide-s">11</td><td class="n"><b>$57,500</b></td><td class="n hide-s">$51,220 to $85,000</td><td><div class="rb" title="Middle half $51,220 to $85,000, median $57,500"><i style="left:14.0%;width:42.3%"></i><b style="left:21.9%"></b></div></td></tr>
+</tbody></table>
+<p class="eg">Only states with 10 or more ads that stated pay are listed. Rows marked "small sample" have fewer than 20 and can move a lot from month to month.</p>
+
+<h2>What the seat really costs you</h2>
+<p>The salary is the part you see. Taxes, benefits, software, and the hours that never reach a project are the rest. Pick a role, then type over the yellow boxes with your own numbers.</p>
+<div class="grid">
+  <div><label>Start from the median for</label><select id="pick"><option value="79009">All seven roles ($79,009)</option><option value="87500">BIM / VDC modeler or coordinator ($87,500)</option><option value="83000">MEP / HVAC / plumbing designer ($83,000)</option><option value="82450">Structural designer or drafter ($82,450)</option><option value="79009">Electrical designer or drafter ($79,009)</option><option value="77500">Architectural designer or drafter ($77,500)</option><option value="68640">CAD drafter or technician (buildings) ($68,640)</option><option value="60185">Steel or rebar detailer ($60,185)</option><option value="99840" data-s="WA">Washington, all roles ($99,840)</option><option value="92150" data-s="IL">Illinois, all roles ($92,150)</option><option value="88000" data-s="CO">Colorado, all roles ($88,000)</option><option value="86355" data-s="NM">New Mexico, all roles ($86,355)</option><option value="83200" data-s="CA">California, all roles ($83,200)</option><option value="80000" data-s="NY">New York, all roles ($80,000)</option><option value="70000" data-s="OH">Ohio, all roles ($70,000)</option><option value="69000" data-s="TX">Texas, all roles ($69,000)</option><option value="67600" data-s="FL">Florida, all roles ($67,600)</option><option value="57500" data-s="MO">Missouri, all roles ($57,500)</option></select></div>
+  <div><label>Salary ($ per year)</label><input id="sal" type="number" min="0" value="79009"></div>
+  <div><label>Employer payroll taxes (%)</label><input id="tax" type="number" min="0" step="0.05" value="7.65"></div>
+  <div><label>Benefits: health, retirement, insurance (% of salary)</label><input id="ben" type="number" min="0" value="20"></div>
+  <div><label>Software licences ($ per year)</label><input id="sw" type="number" min="0" value="3500"></div>
+  <div><label>Computer, desk and office share ($ per year)</label><input id="eq" type="number" min="0" value="4000"></div>
+  <div><label>Paid days off and holidays (days per year)</label><input id="off" type="number" min="0" value="25"></div>
+  <div><label>Share of working hours spent on project work (%)</label><input id="ut" type="number" min="0" max="100" value="80"></div>
+</div>
+<div class="out">
+  <div><span>Salary</span><b id="o1">-</b></div>
+  <div class="big"><span>Full cost per year</span><b id="o2">-</b></div>
+  <div><span>Hours on projects</span><b id="o3">-</b></div>
+  <div class="big"><span>Cost per project hour</span><b id="o4">-</b></div>
+</div>
+<div class="say" id="say"></div>
+<p class="note">How it is counted: 7.65% is the employer's share of Social Security and Medicare. State unemployment tax and workers' compensation come on top and vary by state, so add them to that box if you know yours. The benefits, software, equipment, days off and project-time figures are examples: replace them. A working year is 2,080 paid hours. Recruiting cost and the weeks a new hire takes to learn your standards are not included.</p>
+<p class="noprint"><button class="btn" onclick="print()">Print or save as PDF</button></p>
+
+<h2>Where these numbers come from</h2>
+<ul class="plain">
+  <li><b>Source:</b> public job ads on Indeed for US building design production roles, pulled on Nov 12, 2026. 545 ads, 329 with stated pay.</li>
+  <li><b>What "pay" means:</b> the middle of the range each ad states. Hourly rates are converted at 2,080 hours a year. This is what firms advertise, which is not always what they end up paying.</li>
+  <li><b>Who is included:</b> firms of every size, not only small ones. Ads for factory, product, utility and civil drafting were removed, as were interns, managers and licensed engineers.</li>
+  <li><b>What it is not:</b> a salary survey. No firm was asked anything. Use it as a view of the market on one day, next to your own judgment.</li>
+</ul>
+<div class="cta"><b class="h">A team of modellers for up to 70% less than one full-time hire.</b>Put the full cost above next to that. Send one marked-up sheet and we draw it to your standards, so you can judge the work first. <b>info@brixenconsultancy.com</b> · <b>+1 (229) 210-3506</b></div></main>
+<footer><span><b>Brixen Consultancy</b> · drawing and modeling team for US design firms</span><span>info@brixenconsultancy.com · +1 (229) 210-3506</span></footer>
+</div><script>var $=function(i){return document.getElementById(i)},v=function(i){return parseFloat($(i).value)||0},m=function(n){return '$'+Math.round(n).toLocaleString('en-US')},T=function(i,t){$(i).textContent=t};
+var Q=new URLSearchParams(location.search),who=[Q.get('n'),Q.get('c')].filter(Boolean).join(', '),st=(Q.get('s')||'').toUpperCase();if(who)$('pf').value=who;
+if(st){var row=document.querySelector('#st tr[data-s="'+st+'"]');if(row)row.className='hl';var op=document.querySelector('#pick option[data-s="'+st+'"]');if(op){op.selected=true;$('sal').value=op.value;}}
+function run(){var sal=v('sal'),full=sal*(1+v('tax')/100+v('ben')/100)+v('sw')+v('eq'),hrs=(2080-v('off')*8)*v('ut')/100,ph=hrs?full/hrs:0;
+T('o1',m(sal));T('o2',m(full));T('o3',Math.round(hrs).toLocaleString('en-US'));T('o4',hrs?m(ph):'-');
+$('say').innerHTML=sal?'A <b>'+m(sal)+'</b> seat costs about <b>'+m(full)+' a year</b>, which is <b>'+(full/sal).toFixed(2)+' times the salary</b>. It gives you about <b>'+Math.round(hrs).toLocaleString('en-US')+' hours</b> of project work, so each of those hours costs about <b>'+m(ph)+'</b>, whether the office is busy or slow.':'Enter a salary to see the full cost.';}
+$('pick').addEventListener('change',function(){$('sal').value=this.value;run()});document.querySelectorAll('main input').forEach(function(i){i.addEventListener('input',run)});run();</script></body></html>
